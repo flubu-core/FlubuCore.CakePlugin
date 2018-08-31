@@ -1,3 +1,8 @@
 .vs/
 FlubuCore.CakePlugin/bin/
 FlubuCore.CakePlugin/obj/
+/FlubuCore.CakePlugin.Tests/obj/Debug/netstandard2.0
+/FlubuCore.CakePlugin.Tests/obj/Debug/netcoreapp2.1
+/FlubuCore.CakePlugin.Tests/bin/Debug/netcoreapp2.1
+/FlubuCore.CakePlugin.Tests/bin/Debug/netstandard2.0
+/FlubuCore.CakePlugin.Tests/obj
