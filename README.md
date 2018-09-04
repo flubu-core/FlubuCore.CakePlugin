@@ -12,7 +12,7 @@ Following FlubuCore example uses Cake.Docker addin which is added with [nuget di
 
 ```  //#nuget Cake.Core, 0.30.0 ``` has to be added because FlubuCore.CakePlugin has dependecy on it and flubu nuget directives doesn't resolve dependencies from nuget packages at the moment. 
 
-If Cake addin would have any nuget dependencies that dependecy would have to be added with nuget directive(or any other directive) in build script as well. 
+If Cake addin would have any nuget dependencies that dependecies would have to be added with nuget directive(or any other directive) in build script as well. 
 
     
     //#nuget FlubuCore.CakePlugin, 1.0.0
