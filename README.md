@@ -4,7 +4,7 @@
 [![Gitter](https://img.shields.io/gitter/room/FlubuCore/Lobby.svg)](https://gitter.im/FlubuCore/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![License](https://img.shields.io/github/license/flubu-core/flubuCore.CakePlugin.svg)](https://github.com/flubu-core/FlubuCore.CakePlugin/blob/master/LICENSE)
 
-FlubuCore.CakePlugin is a [FlubuCore](https://github.com/flubu-core/flubu.core) plugin that allows you to use any Cake addins in FlubuCore. 
+FlubuCore.CakePlugin is a [FlubuCore](https://github.com/flubu-core/flubu.core) plugin that allows you to use any of the Cake addins in FlubuCore. 
 
 Plugin adds Cake addins to FlubuCore ``` ITaskContext ``` interface:  ``` context.CakeTasks() ```
     
