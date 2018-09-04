@@ -10,7 +10,7 @@ Plugin adds Cake tasks to FlubuCore ``` ITaskContext ``` interface:  ``` context
     
 Following FlubuCore example uses Cake.Docker addin which is added with [nuget directive](https://github.com/flubu-core/flubu.core/wiki/2-Build-script-fundamentals#Referencing-nuget-packages) ``` //#nuget Cake.Docker, 0.9.6 ```.
 
-```  //#nuget Cake.Core, 0.30.0 ``` has to be added because FlubuCore.CakePlugin has dependecy on it and nuget directives doesn't resolve at the moment dependencies from nuget packages. 
+```  //#nuget Cake.Core, 0.30.0 ``` has to be added because FlubuCore.CakePlugin has dependecy on it and flubu nuget directives doesn't resolve dependencies from nuget packages at the moment. 
 
 If Cake addin would have any nuget dependencies that dependecy would have to be added in build script as well. 
 
