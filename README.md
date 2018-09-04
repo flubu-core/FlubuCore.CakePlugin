@@ -29,6 +29,8 @@ If Cake addin would have any nuget dependencies that dependecy would have to be 
     }
     
 Full example that uses cake addin can be found [here](https://github.com/flubu-core/examples/blob/master/UsingCakeAddinInFlubuExample/BuildScript/BuildScript.cs) 
+
+[Cake plugins can be found here](https://www.nuget.org/packages?q=cake)
  
  ## Have a question?
 
