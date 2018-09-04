@@ -6,7 +6,7 @@
 
 FlubuCore.CakePlugin is a [FlubuCore](https://github.com/flubu-core/flubu.core) plugin that allows you to use any Cake addins in FlubuCore. 
 
-Plugin adds Cake tasks to FlubuCore ``` ITaskContext ``` interface:  ``` context.CakeTasks() ```
+Plugin adds Cake addins to FlubuCore ``` ITaskContext ``` interface:  ``` context.CakeTasks() ```
     
 Following FlubuCore example uses Cake.Docker addin which is added with [nuget directive](https://github.com/flubu-core/flubu.core/wiki/2-Build-script-fundamentals#Referencing-nuget-packages) ``` //#nuget Cake.Docker, 0.9.6 ```.
 
