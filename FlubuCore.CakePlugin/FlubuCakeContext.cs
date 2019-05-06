@@ -22,7 +22,7 @@ namespace FlubuCore.CakePlugin
 
         public IGlobber Globber => new Globber(FileSystem, Environment);
 
-        public IProcessRunner ProcessRunner => new ProcessRunner(Environment, Log);
+        public IProcessRunner ProcessRunner => new ProcessRunner(FileSystem, Environment, Log, Tools, Configuration);
 
         public IToolLocator Tools => new ToolLocator(Environment, Repository, new ToolResolutionStrategy(FileSystem, Environment, Globber, new CakeConfiguration(new ConcurrentDictionary<string, string>())));
 
@@ -31,5 +31,7 @@ namespace FlubuCore.CakePlugin
         public ICakeArguments Arguments => new FlubuCakeArguments();
        
         public ICakeDataResolver Data => new FlubuCakeDataResolver();
+
+        public ICakeConfiguration Configuration => new CakeConfiguration(new Dictionary<string, string>());
     }
 }

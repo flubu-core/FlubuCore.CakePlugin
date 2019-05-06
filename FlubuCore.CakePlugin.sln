@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlubuCore.CakePlugin", "Flu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlubuCore.CakePlugin.Tests", "FlubuCore.CakePlugin.Tests\FlubuCore.CakePlugin.Tests.csproj", "{BB4A55C7-5010-4F82-819A-EE812838A993}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildScript", "BuildScript.csproj", "{CF7A7BCA-5335-4D83-B39C-4CC3D9349E70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BB4A55C7-5010-4F82-819A-EE812838A993}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB4A55C7-5010-4F82-819A-EE812838A993}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB4A55C7-5010-4F82-819A-EE812838A993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7A7BCA-5335-4D83-B39C-4CC3D9349E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7A7BCA-5335-4D83-B39C-4CC3D9349E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7A7BCA-5335-4D83-B39C-4CC3D9349E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7A7BCA-5335-4D83-B39C-4CC3D9349E70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
