@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="BuildScript\obj\**" />
+    <Compile Remove="FlubuCore.CakePlugin.Tests\**" />
+    <Compile Remove="FlubuCore.CakePlugin\**" />
+    <EmbeddedResource Remove="BuildScript\obj\**" />
+    <EmbeddedResource Remove="FlubuCore.CakePlugin.Tests\**" />
+    <EmbeddedResource Remove="FlubuCore.CakePlugin\**" />
+    <None Remove="BuildScript\obj\**" />
+    <None Remove="FlubuCore.CakePlugin.Tests\**" />
+    <None Remove="FlubuCore.CakePlugin\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FlubuCore" Version="2.11.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="dotnet-flubu" Version="2.11.2" />
+  </ItemGroup>
+</Project>
