@@ -11,8 +11,6 @@ Plugin adds Cake addins to FlubuCore ``` ITaskContext ``` interface:  ``` contex
     
 Following FlubuCore example uses Cake.Docker addin which is added as nuget package. This is just an example you should not use Cake addin for docker as FlubuCore has it's own tasks for docker.    
 
-    [NugetPackage("Cake.FileHelpers", "3.1.0")]
-    [NugetPackage("FlubuCore.CakePlugin", "1.1.0")]
     public class BuildScript : DefaultBuildScript
     {
         private void CakeAddinExample(ITaskContext context)
