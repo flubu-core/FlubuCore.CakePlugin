@@ -5,8 +5,8 @@
   <Version>1.1.0</Version><AssemblyVersion>1.1.0.0</AssemblyVersion><FileVersion>1.1.0.0</FileVersion></PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Cake.Core" Version="0.33.0" />
-    <PackageReference Include="FlubuCore" Version="3.1.2" />
+    <PackageReference Include="Cake.Core" Version="0.37.0" />
+    <PackageReference Include="FlubuCore" Version="5.0.2" />
   </ItemGroup>
 
 </Project>
